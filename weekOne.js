@@ -12,7 +12,7 @@ function minToFront(arr) {
     let lowestNumIndex = 0
     // identify lowest num in array
     // iterate over array
-    for(let i = 0; i < arr.length; i++) {
+    for(let i = 1; i < arr.length; i++) {
         // compare current number to lowestNumber
         // if current num is lower then make lowestNum
         if(arr[i] < arr[lowestNumIndex]) {
